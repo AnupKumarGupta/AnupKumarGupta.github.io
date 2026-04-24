@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Anup Kumar Gupta"
 title_separator          : "-"
-name                     : &name "Anup Kumar Gupta"
+name                     : &name "Dr Anup Kumar Gupta"
 description              : &description "Translational Research Fellow at IIT Indore | PMRF Recipient | PhD in Computer Science & Engineering"
 url                      : https://anupkumargupta.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
