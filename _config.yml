@@ -10,11 +10,11 @@ locale                   : "en-US"
 title                    : "Anup Kumar Gupta"
 title_separator          : "-"
 name                     : &name "Anup Kumar Gupta"
-description              : &description "personal description"
+description              : &description "Translational Research Fellow at IIT Indore | PMRF Recipient | PhD in Computer Science & Engineering"
 url                      : https://anupkumargupta.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "anupkumargupta.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "AnupKumarGupta.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -50,10 +50,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification : "OePbXZRkfGAp5RCG5p9SycJcmLF8C2O8NT5aXO-7GXo" 
+bing_site_verification   : "0B891B9258351D55DC9D7643ADD03BA3"
 
 # Social Sharing
 twitter:
@@ -62,60 +60,43 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 :  "AnupKumarGupta.png"
+
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person" # or Organization (defaults to Person)
+  name                   : "Anup Kumar Gupta" # If the user or organization name differs from the site's name
+  links: 
+    - https://twitter.com/AnupKumarGupta_
+    - https://www.linkedin.com/in/anupkumargupta/
+    - https://scholar.google.com/citations?user=yNhpJTAAAAAJ
+    - https://orcid.org/0000-0003-1090-6036
+    - https://www.webofscience.com/wos/author/record/ABC-8017-2021
+    - https://www.researchgate.net/profile/Anup-Kumar-Gupta
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
-
+    tracking_id          : "G-48143JT6T0" # Replace with your actual ID
 
 # Site Author
 author:
   name             : "Anup Kumar Gupta"
   avatar           : "AnupKumarGupta.png"
-  bio              : "Prime Minister Research Fellowship (PMRF) Recipient | PhD scholar at IIT Indore"
-  location         : "Indore"
-  employer         :
+  bio              : "Translational Research Fellow at IIT Indore | PMRF Recipient | PhD in Computer Science & Engineering"
+  location         : "Indore, India"
   googlescholar    : "https://scholar.google.com/citations?user=yNhpJTAAAAAJ&hl=en"
-  pubmed           : 
   email            : "msrphd2105101002 [at] iiti [dot] ac [dot] in"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
+  researchgate     : "https://www.researchgate.net/profile/Anup-Kumar-Gupta"
   github           : "AnupKumarGupta"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
+  linkedin         : "anupkumargupta"
   orcid            : "https://orcid.org/0000-0003-1090-6036"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/6521550/anup-kumar-gupta"
-  steam            :
-  tumblr           :
+  stackoverflow    : "6521550"
   twitter          : "AnupKumarGupta_"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
+  webofscience     : "ABC-8017-2021"
 
 # Reading Files
 include:
@@ -178,9 +159,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -219,14 +200,14 @@ defaults:
       share: true
       comments: true
   # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: publications
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _portfolio
   - scope:
       path: ""
@@ -235,7 +216,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""
@@ -255,7 +236,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Kolkata # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
