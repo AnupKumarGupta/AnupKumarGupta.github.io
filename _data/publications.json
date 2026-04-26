@@ -1,0 +1,100 @@
+[
+    {
+        "year": "2026",
+        "authors": "Vaidehi Agarwal, Trishna Saikia, Anup Kumar Gupta, Puneet Gupta",
+        "title": "SHINE: Synergizing transformers with contrastive learning for thriving rPPG-based SpO2 estimation.",
+        "venue": "Expert Syst. Appl.",
+        "link": "https://doi.org/10.1016/j.eswa.2025.129190"
+    },
+    {
+        "year": "2025",
+        "authors": "Anup Kumar Gupta, Trishna Saikia, Puneet Gupta, Abhinav Dhall",
+        "title": "PainXtract: A Multimodal System for Multiclass Pain Classification Using Physiological Signals.",
+        "venue": "ICMI Companion",
+        "link": "https://doi.org/10.1145/3747327.3764792"
+    },
+    {
+        "year": "2024",
+        "authors": "Anup Kumar Gupta, Ashutosh Dhamaniya, Puneet Gupta",
+        "title": "RADIANCE: Reliable and interpretable depression detection from speech using transformer.",
+        "venue": "Comput. Biol. Medicine",
+        "link": "https://doi.org/10.1016/j.compbiomed.2024.109325"
+    },
+    {
+        "year": "2024",
+        "authors": "Sneha Shukla, Anup Kumar Gupta, Puneet Gupta",
+        "title": "Exploring the feasibility of adversarial attacks on medical image segmentation.",
+        "venue": "Multim. Tools Appl.",
+        "link": "https://doi.org/10.1007/s11042-023-15575-8"
+    },
+    {
+        "year": "2024",
+        "authors": "Trishna Saikia, Lokendra Birla, Anup Kumar Gupta, Puneet Gupta",
+        "title": "HREADAI: Heart Rate Estimation From Face Mask Videos by Consolidating Eulerian and Lagrangian Approaches.",
+        "venue": "IEEE Trans. Instrum. Meas.",
+        "link": "https://doi.org/10.1109/TIM.2023.3334359"
+    },
+    {
+        "year": "2023",
+        "authors": "Anup Kumar Gupta, Vardhan Paliwal, Aryan Rastogi, Puneet Gupta",
+        "title": "TRIESTE: translation based defense for text classifiers.",
+        "venue": "J. Ambient Intell. Humaniz. Comput.",
+        "link": "https://doi.org/10.1007/s12652-022-03859-0"
+    },
+    {
+        "year": "2023",
+        "authors": "Sneha Shukla, Lokendra Birla, Anup Kumar Gupta, Puneet Gupta",
+        "title": "Trustworthy Medical Image Segmentation with improved performance for in-distribution samples.",
+        "venue": "Neural Networks",
+        "link": "https://doi.org/10.1016/j.neunet.2023.06.047"
+    },
+    {
+        "year": "2023",
+        "authors": "Aditya Dixit, Anup Kumar Gupta, Puneet Gupta, Saurabh Srivastava, Ankur Garg",
+        "title": "UNFOLD: 3-D U-Net, 3-D CNN, and 3-D Transformer-Based Hyperspectral Image Denoising.",
+        "venue": "IEEE Trans. Geosci. Remote. Sens.",
+        "link": "https://doi.org/10.1109/TGRS.2023.3328922"
+    },
+    {
+        "year": "2023",
+        "authors": "Anup Kumar Gupta, Rupesh Kumar, Lokendra Birla, Puneet Gupta",
+        "title": "RADIANT: Better rPPG estimation using signal embeddings and Transformer.",
+        "venue": "WACV",
+        "link": "https://doi.org/10.1109/WACV56688.2023.00495"
+    },
+    {
+        "year": "2023",
+        "authors": "Lokendra Birla, Sneha Shukla, Anup Kumar Gupta, Puneet Gupta",
+        "title": "ALPINE: Improving Remote Heart Rate Estimation using Contrastive Learning.",
+        "venue": "WACV",
+        "link": "https://doi.org/10.1109/WACV56688.2023.00500"
+    },
+    {
+        "year": "2022",
+        "authors": "Anup Kumar Gupta, Puneet Gupta, Esa Rahtu",
+        "title": "FATALRead - Fooling visual speech recognition models.",
+        "venue": "Appl. Intell.",
+        "link": "https://doi.org/10.1007/s10489-021-02846-w"
+    },
+    {
+        "year": "2022",
+        "authors": "Anup Kumar Gupta, Aryan Rastogi, Vardhan Paliwal, Fyse Nassar, Puneet Gupta",
+        "title": "D-NEXUS: Defending text networks using summarization.",
+        "venue": "Electron. Commer. Res. Appl.",
+        "link": "https://doi.org/10.1016/j.elerap.2022.101171"
+    },
+    {
+        "year": "2021",
+        "authors": "Saumya Mishra, Anup Kumar Gupta, Puneet Gupta",
+        "title": "DARE: Deceiving Audio-Visual speech Recognition model.",
+        "venue": "Knowl. Based Syst.",
+        "link": "https://doi.org/10.1016/j.knosys.2021.107503"
+    },
+    {
+        "year": "2021",
+        "authors": "Jainendra Shukla, Puneet Gupta, Aniket Bera, Arka Sarkar, Prakhar Goel, Shubhangi Butta, Anup Kumar Gupta, Snehil Sanyal, Debanga Raj Neog, Manas Kamal Bhuyan, Kalyani Marathe, Linda G. Shapiro, Alex Colbrn, Varchita Lalwani",
+        "title": "Contextual Emotion Learning Challenge.",
+        "venue": "FG",
+        "link": "https://doi.org/10.1109/FG52635.2021.9667034"
+    }
+]
