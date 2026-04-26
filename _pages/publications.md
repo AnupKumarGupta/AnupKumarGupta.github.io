@@ -14,7 +14,3 @@ author_profile: true
 {% for paper in sorted_papers %}
 * {{ paper.authors | replace: "Anup Kumar Gupta", "<span style='font-weight: 550;'>Anup Kumar Gupta</span>" }}. ``[{% if paper.link != empty and paper.link != nil %}{{ paper.title }}{% else %}{{ paper.title }}{% endif %}]({{ paper.link }})''. *{{ paper.venue }}*, {{ paper.year }}.
 {% endfor %}
-
-{% for paper in sorted_papers %}
-* {{ paper.authors }}. ``[{% if paper.link != empty and paper.link != nil %}{{ paper.title }}{% else %}{{ paper.title }}{% endif %}]({{ paper.link }})''. *{{ paper.venue }}*, {{ paper.year }}.
-{% endfor %}

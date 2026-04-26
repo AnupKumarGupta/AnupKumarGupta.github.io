@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "Curriculum Vitae" 
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
------ 
+<!-- <a href="{{ base_path }}/files/Anup_Kumar_Gupta_CV.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+
+<a href="{{ base_path }}/files/Anup_Kumar_Gupta_CV.pdf" class="btn" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+
+<a href="{{ base_path }}/files/Anup_Kumar_Gupta_CV.pdf" class="btn btn--outline-primary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a> -->
+
+<a href="{{ base_path }}/files/Anup_Kumar_Gupta_CV.pdf" target="_blank"><i class="fas fa-file-pdf" style="margin-right: 5px;"></i><strong>Download CV</strong></a>
+
+<!-- -----  -->
+
 
 Education
 =========
@@ -19,9 +28,11 @@ Education
   
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% assign sorted_papers = site.data.publications | sort: "year" | reverse %}
+
+{% for paper in sorted_papers %}
+* {{ paper.authors | replace: "Anup Kumar Gupta", "<span style='font-weight: 550;'>Anup Kumar Gupta</span>" }}. ``[{% if paper.link != empty and paper.link != nil %}{{ paper.title }}{% else %}{{ paper.title }}{% endif %}]({{ paper.link }})''. *{{ paper.venue }}*, {{ paper.year }}.
+{% endfor %}
 
 Patent
 ======
