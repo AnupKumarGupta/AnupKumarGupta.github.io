@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-*For a updated list of my publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=yNhpJTAAAAAJ&hl=en) profile.*
+<!-- *For a updated list of my publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=yNhpJTAAAAAJ&hl=en) profile.* -->
 
 {% assign sorted_papers = site.data.publications | sort: "year" | reverse %}
 
