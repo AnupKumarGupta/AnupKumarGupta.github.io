@@ -9,9 +9,9 @@ redirect_from:
 ---
 {% include base_path %}
 
-I completed my Ph.D. in Computer Science and Engineering at the Indian Institute of Technology (IIT) Indore as a Prime Minister Research Fellowship (PMRF) scholar under the supervision of [Dr. Puneet Gupta](https://scholar.google.com/citations?hl=en&user=yUB8lNsAAAAJ&view_op=list_works&sortby=pubdate). Following my Ph.D., I also served as a Translational Research Scholar at IIT Indore.
+I completed my Ph.D. in Computer Science and Engineering at the Indian Institute of Technology (IIT) Indore as a Prime Minister Research Fellowship (PMRF) scholar under the supervision of [Dr. Puneet Gupta](https://scholar.google.com/citations?hl=en&user=yUB8lNsAAAAJ&view_op=list_works&sortby=pubdate). Following my Ph.D., I also served as a Translational Research Scholar (TRF) at IIT Indore.
 
-My doctoral thesis focused on *"Exploring Trustworthy Multimodal Learning for Mental and Physiological Health Assessment."* I also carry expertise in Adversarial Attacks and Defences for Deep Learning models. I am currently working on *SEHAT*, a smartphone-enabled remote heart rate assessment application.
+My doctoral thesis focused on *"Exploring Trustworthy Multimodal Learning for Mental and Physiological Health Assessment."* I also carry expertise in Adversarial Attacks and Defences for Deep Learning models. I have also worked on *SEHAT*, a smartphone-enabled remote heart rate assessment application, as TRF.
 
 When I’m not deep into tech, I like to immerse myself in the magical world of books, capture the night sky through astrophotography, or experiment in the kitchen. To know more about my work, check out my [Google Scholar](https://scholar.google.com/citations?user=yNhpJTAAAAAJ&hl=en) or [GitHub](https://github.com/AnupKumarGupta) profiles. If you think we have something in common or wish to collaborate, please feel free to reach out!
 
