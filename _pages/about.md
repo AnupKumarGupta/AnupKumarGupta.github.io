@@ -9,7 +9,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-I am a Translational Research Scholar at the Indian Institute of Technology (IIT) Indore. I recently completed my Ph.D. in Computer Science and Engineering as a Prime Minister Research Fellowship (PMRF) scholar under the supervision of [Dr. Puneet Gupta](https://www.iiti.ac.in/people/~puneet/). 
+I completed my Ph.D. in Computer Science and Engineering at the Indian Institute of Technology (IIT) Indore as a Prime Minister Research Fellowship (PMRF) scholar under the supervision of Dr. Puneet Gupta. Following my Ph.D., I also served as a Translational Research Scholar at IIT Indore.
 
 My doctoral thesis focused on *"Exploring Trustworthy Multimodal Learning for Mental and Physiological Health Assessment."* I also carry expertise in Adversarial Attacks and Defences for Deep Learning models. I am currently working on *SEHAT*, a smartphone-enabled remote heart rate assessment application.
 
@@ -25,7 +25,7 @@ Education
 
 Work Experience
 ===============
-* **Translational Research Scholar**, [Indian Institute of Technology Indore](https://cse.iiti.ac.in/) [Sep. 2025 – Present]
+* **Translational Research Scholar**, [Indian Institute of Technology Indore](https://cse.iiti.ac.in/) [Sep. 2025 – Sep. 2026]
 * **Guest Faculty and Course Co-ordinator**, [Shri G. S. Institute of Technology & Science (SGSITS) Indore](https://www.sgsits.ac.in/) [Oct. 2021 – Aug. 2025]
 * **Visiting Research Scholar**, [Purdue University](https://www.cs.purdue.edu/homes/ab/), [Jun. 2024 - Jul. 2024]
 * **Workplace Bots Developer**, [Kwench Global Technologies Pvt. Ltd.](https://www.huminos.com/), [Oct. 2017 - Apr. 2018]

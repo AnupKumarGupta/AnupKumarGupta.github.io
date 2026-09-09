@@ -40,7 +40,7 @@ Patent
 
 Work experience
 ===============
-* Indian Institute of Technology Indore (Indore, Madhya Pradesh, Sep. 2025 – Present)
+* Indian Institute of Technology Indore (Indore, Madhya Pradesh, Sep. 2025 – Sep. 2026)
   * Translational Research Scholar 
   * Leading the development of *SEHAT*: A smartphone-enabled remote Heart Rate Assessment and Tracking application.
 
@@ -92,8 +92,10 @@ Academic Service
 
 Honors & Achievements
 =====================
+* Best Student Paper Award, IEEE International Conference on Automatic Face and Gesture Recognition (FG 2026), Kyoto, Japan, May 2026.
+* Awarded, IEEE FG 2026 Broadening Participation Travel Grant, IEEE Biometrics Council, May 2026
 * Keynote Speaker, National Conference on Emerging Technologies (AI, ML & DS) [Mar. 2026]
-* Outstanding Reviewer, CVPR 2025 (Top ~6% reviewers) [May 2025]
+* Outstanding Reviewer, CVPR 2025 (Top ~6% reviewers) [May 2025, 2026]
 * Best Technology Award, Indian Institute of Technology Indore [Feb. 2025]
 * Best Research Paper Award, Indian Institute of Technology Indore [Feb. 2024]
 * Recipient, [Prime Minister Research Fellowship (PMRF)](https://may2021.pmrf.in/) [Aug. 2021 – Aug. 2025]

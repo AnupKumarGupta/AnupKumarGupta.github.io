@@ -7,6 +7,34 @@
         "link": "https://doi.org/10.1016/j.eswa.2025.129190"
     },
     {
+        "year": "2026",
+        "authors": "Anup Kumar Gupta, Puneet Gupta, Abhinav Dhall",
+        "title": "Hierarchical Cross-Attention Transformer for Non-contact Multimodal Pain Classification using Remote Physiological Signals and Visual Features.",
+        "venue": "FG",
+        "link": "https://doi.org/10.1109/FG67764.2026.11556963"
+    },
+    {
+        "year": "2026",
+        "authors": "Trishna Saikia, Anup Kumar Gupta, Puneet Gupta, Pasi Liljeberg",
+        "title": "Exploring PPG-Guided Knowledge Distillation for Contactless Respiration Estimation.",
+        "venue": "FG",
+        "link": "https://doi.org/10.1109/FG67764.2026.11557053"
+    },
+    {
+        "year": "2026",
+        "authors": "Ashutosh Dhamaniya, Anup Kumar Gupta, Trishna Saikia, Puneet Gupta",
+        "title": "Exploring Remote Photoplethysmography for Neonatal Pain Detection from Facial Videos.",
+        "venue": "CoRR",
+        "link": "https://doi.org/10.48550/arXiv.2604.25680"
+    },
+    {
+        "year": "2026",
+        "authors": "Trishna Saikia, Anup Kumar Gupta, Puneet Gupta, Pasi Liljeberg",
+        "title": "A Skin-Tone-Aware Dual-Representation Remote Photoplethysmography Framework for Contactless Respiratory Rate Estimation.",
+        "venue": "CoRR",
+        "link": "https://doi.org/10.48550/arXiv.2606.21511"
+    },
+    {
         "year": "2025",
         "authors": "Anup Kumar Gupta, Trishna Saikia, Puneet Gupta, Abhinav Dhall",
         "title": "PainXtract: A Multimodal System for Multiclass Pain Classification Using Physiological Signals.",
