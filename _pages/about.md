@@ -27,6 +27,7 @@ Work Experience
 ===============
 * **Translational Research Scholar**, [Indian Institute of Technology Indore](https://cse.iiti.ac.in/) [Sep. 2025 – Sep. 2026]
 * **Translational Research Scholar**, [Indian Institute of Technology Indore](https://cse.iiti.ac.in/) [Sep. 2025 – Sep. 2026]
+* **Translational Research Scholar**, [Indian Institute of Technology Indore](https://cse.iiti.ac.in/) [Sep. 2025 – Sep. 2026]
 * **Guest Faculty and Course Co-ordinator**, [Shri G. S. Institute of Technology & Science (SGSITS) Indore](https://www.sgsits.ac.in/) [Oct. 2021 – Aug. 2025]
 * **Visiting Research Scholar**, [Purdue University](https://www.cs.purdue.edu/homes/ab/), [Jun. 2024 - Jul. 2024]
 * **Workplace Bots Developer**, [Kwench Global Technologies Pvt. Ltd.](https://www.huminos.com/), [Oct. 2017 - Apr. 2018]

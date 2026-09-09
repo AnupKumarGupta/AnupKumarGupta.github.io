@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<dblpperson name="Anup Kumar Gupta 0001" pid="305/5359" n="18">
+<person key="homepages/305/5359" mdate="2026-08-03">
+<author pid="305/5359">Anup Kumar Gupta 0001</author>
+<note type="affiliation">Indian Institute of Technology, Indore, India</note>
+<url>https://orcid.org/0000-0003-1090-6036</url>
+</person>
+<homonyms n="2">
+<h f="g/Gupta:Anup_Kumar"><name>Anup Kumar Gupta</name>
+</h>
+<h f="g/Gupta_0002:Anup_Kumar"><person key="homepages/230/9721" mdate="2026-08-03">
+<author pid="230/9721">Anup Kumar Gupta 0002</author>
+<note type="affiliation">University of Calgary, Department of Chemical and Petroleum Engineering, Calagary, Canada</note>
+</person>
+</h>
+</homonyms>
+<r><article key="journals/eswa/AgarwalSGG26" mdate="2026-08-03">
+<author orcid="0009-0007-3171-9404" pid="414/2011">Vaidehi Agarwal</author>
+<author orcid="0000-0002-3052-1689" pid="322/6119">Trishna Saikia</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>SHINE: Synergizing transformers with contrastive learning for thriving rPPG-based SpO2 estimation.</title>
+<pages>129190</pages>
+<year>2026</year>
+<volume>296</volume>
+<journal>Expert Syst. Appl.</journal>
+<ee>https://doi.org/10.1016/j.eswa.2025.129190</ee>
+<url>db/journals/eswa/eswa296.html#AgarwalSGG26</url>
+<stream>streams/journals/eswa</stream>
+</article>
+</r>
+<r><inproceedings key="conf/fgr/GuptaGD26" mdate="2026-08-03">
+<author pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<author pid="05/7591">Abhinav Dhall</author>
+<title>Hierarchical Cross-Attention Transformer for Non-contact Multimodal Pain Classification using Remote Physiological Signals and Visual Features.</title>
+<booktitle>FG</booktitle>
+<year>2026</year>
+<pages>1-9</pages>
+<crossref>conf/fgr/2026</crossref>
+<ee>https://doi.org/10.1109/FG67764.2026.11556963</ee>
+<url>db/conf/fgr/fr2026.html#GuptaGD26</url>
+<stream>streams/conf/fgr</stream>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/fgr/SaikiaGGL26" mdate="2026-08-03">
+<author orcid="0000-0002-3052-1689" pid="322/6119">Trishna Saikia</author>
+<author pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<author pid="22/660">Pasi Liljeberg</author>
+<title>Exploring PPG-Guided Knowledge Distillation for Contactless Respiration Estimation.</title>
+<booktitle>FG</booktitle>
+<year>2026</year>
+<pages>1-5</pages>
+<crossref>conf/fgr/2026</crossref>
+<ee>https://doi.org/10.1109/FG67764.2026.11557053</ee>
+<url>db/conf/fgr/fr2026.html#SaikiaGGL26</url>
+<stream>streams/conf/fgr</stream>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2604-25680" mdate="2026-08-03">
+<author pid="396/8877">Ashutosh Dhamaniya</author>
+<author pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="322/6119">Trishna Saikia</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>Exploring Remote Photoplethysmography for Neonatal Pain Detection from Facial Videos.</title>
+<year>2026</year>
+<month>April</month>
+<volume>abs/2604.25680</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2604.25680</ee>
+<url>db/journals/corr/corr2604.html#abs-2604-25680</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2606-21511" mdate="2026-08-03">
+<author pid="322/6119">Trishna Saikia</author>
+<author pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<author pid="22/660">Pasi Liljeberg</author>
+<title>A Skin-Tone-Aware Dual-Representation Remote Photoplethysmography Framework for Contactless Respiratory Rate Estimation.</title>
+<year>2026</year>
+<month>June</month>
+<volume>abs/2606.21511</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2606.21511</ee>
+<url>db/journals/corr/corr2606.html#abs-2606-21511</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r><inproceedings key="conf/icmi/GuptaS0D25" mdate="2026-08-03">
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author orcid="0000-0002-3052-1689" pid="322/6119">Trishna Saikia</author>
+<author orcid="0000-0003-3586-9315" pid="06/1383-2">Puneet Gupta 0002</author>
+<author orcid="0000-0002-2230-1440" pid="05/7591">Abhinav Dhall</author>
+<title>PainXtract: A Multimodal System for Multiclass Pain Classification Using Physiological Signals.</title>
+<pages>153-161</pages>
+<year>2025</year>
+<booktitle>ICMI Companion</booktitle>
+<ee>https://doi.org/10.1145/3747327.3764792</ee>
+<crossref>conf/icmi/2025c</crossref>
+<url>db/conf/icmi/icmi2025c.html#GuptaS0D25</url>
+</inproceedings>
+</r>
+<r><article key="journals/cbm/GuptaDG24" mdate="2026-08-03">
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="396/8877">Ashutosh Dhamaniya</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>RADIANCE: Reliable and interpretable depression detection from speech using transformer.</title>
+<pages>109325</pages>
+<year>2024</year>
+<volume>183</volume>
+<journal>Comput. Biol. Medicine</journal>
+<ee>https://doi.org/10.1016/j.compbiomed.2024.109325</ee>
+<url>db/journals/cbm/cbm183.html#GuptaDG24</url>
+<stream>streams/journals/cbm</stream>
+</article>
+</r>
+<r><article key="journals/mta/ShuklaGG24" mdate="2026-08-03">
+<author orcid="0000-0003-1861-8952" pid="270/3059">Sneha Shukla</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>Exploring the feasibility of adversarial attacks on medical image segmentation.</title>
+<pages>11745-11768</pages>
+<year>2024</year>
+<month>January</month>
+<volume>83</volume>
+<journal>Multim. Tools Appl.</journal>
+<number>4</number>
+<ee>https://doi.org/10.1007/s11042-023-15575-8</ee>
+<url>db/journals/mta/mta83.html#ShuklaGG24</url>
+</article>
+</r>
+<r><article key="journals/tim/SaikiaBGG24" mdate="2026-08-03">
+<author orcid="0000-0002-3052-1689" pid="322/6119">Trishna Saikia</author>
+<author orcid="0000-0003-1403-3359" pid="231/9257">Lokendra Birla</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author orcid="0000-0003-3586-9315" pid="06/1383-2">Puneet Gupta 0002</author>
+<title>HREADAI: Heart Rate Estimation From Face Mask Videos by Consolidating Eulerian and Lagrangian Approaches.</title>
+<pages>1-11</pages>
+<year>2024</year>
+<volume>73</volume>
+<journal>IEEE Trans. Instrum. Meas.</journal>
+<ee>https://doi.org/10.1109/TIM.2023.3334359</ee>
+<url>db/journals/tim/tim73.html#SaikiaBGG24</url>
+</article>
+</r>
+<r><article key="journals/jaihc/GuptaPRG23" mdate="2026-08-03">
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author orcid="0000-0003-0709-0128" pid="318/8544">Vardhan Paliwal</author>
+<author orcid="0000-0002-8087-0625" pid="318/8650">Aryan Rastogi</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>TRIESTE: translation based defense for text classifiers.</title>
+<pages>16385-16396</pages>
+<year>2023</year>
+<month>December</month>
+<volume>14</volume>
+<journal>J. Ambient Intell. Humaniz. Comput.</journal>
+<number>12</number>
+<ee>https://doi.org/10.1007/s12652-022-03859-0</ee>
+<ee>https://www.wikidata.org/entity/Q114220448</ee>
+<url>db/journals/jaihc/jaihc14.html#GuptaPRG23</url>
+</article>
+</r>
+<r><article key="journals/nn/ShuklaBGG23" mdate="2026-08-03">
+<author orcid="0000-0003-1861-8952" pid="270/3059">Sneha Shukla</author>
+<author orcid="0000-0003-1403-3359" pid="231/9257">Lokendra Birla</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author orcid="0000-0003-3586-9315" pid="06/1383-2">Puneet Gupta 0002</author>
+<title>Trustworthy Medical Image Segmentation with improved performance for in-distribution samples.</title>
+<pages>127-136</pages>
+<year>2023</year>
+<month>September</month>
+<volume>166</volume>
+<journal>Neural Networks</journal>
+<ee>https://doi.org/10.1016/j.neunet.2023.06.047</ee>
+<url>db/journals/nn/nn166.html#ShuklaBGG23</url>
+</article>
+</r>
+<r><article key="journals/tgrs/DixitGGSG23" mdate="2026-08-03">
+<author orcid="0009-0007-4860-7396" pid="190/7903">Aditya Dixit</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author orcid="0000-0003-3586-9315" pid="06/1383-2">Puneet Gupta 0002</author>
+<author orcid="0009-0006-8020-7491" pid="181/2675-3">Saurabh Srivastava 0003</author>
+<author orcid="0000-0002-2872-5690" pid="192/1455">Ankur Garg</author>
+<title>UNFOLD: 3-D U-Net, 3-D CNN, and 3-D Transformer-Based Hyperspectral Image Denoising.</title>
+<pages>1-10</pages>
+<year>2023</year>
+<volume>61</volume>
+<journal>IEEE Trans. Geosci. Remote. Sens.</journal>
+<ee>https://doi.org/10.1109/TGRS.2023.3328922</ee>
+<url>db/journals/tgrs/tgrs61.html#DixitGGSG23</url>
+</article>
+</r>
+<r><inproceedings key="conf/wacv/GuptaKBG23" mdate="2026-08-03">
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="41/11351">Rupesh Kumar</author>
+<author orcid="0000-0003-1403-3359" pid="231/9257">Lokendra Birla</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>RADIANT: Better rPPG estimation using signal embeddings and Transformer.</title>
+<pages>4965-4975</pages>
+<year>2023</year>
+<booktitle>WACV</booktitle>
+<ee>https://doi.org/10.1109/WACV56688.2023.00495</ee>
+<crossref>conf/wacv/2023</crossref>
+<url>db/conf/wacv/wacv2023.html#GuptaKBG23</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/wacv/BirlaSGG23" mdate="2026-08-03">
+<author orcid="0000-0003-1403-3359" pid="231/9257">Lokendra Birla</author>
+<author orcid="0000-0003-1861-8952" pid="270/3059">Sneha Shukla</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>ALPINE: Improving Remote Heart Rate Estimation using Contrastive Learning.</title>
+<pages>5018-5027</pages>
+<year>2023</year>
+<booktitle>WACV</booktitle>
+<ee>https://doi.org/10.1109/WACV56688.2023.00500</ee>
+<crossref>conf/wacv/2023</crossref>
+<url>db/conf/wacv/wacv2023.html#BirlaSGG23</url>
+</inproceedings>
+</r>
+<r><article key="journals/apin/GuptaGR22" mdate="2026-08-03">
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<author orcid="0000-0001-8767-0864" pid="34/3846">Esa Rahtu</author>
+<title>FATALRead - Fooling visual speech recognition models.</title>
+<pages>9001-9016</pages>
+<year>2022</year>
+<volume>52</volume>
+<journal>Appl. Intell.</journal>
+<number>8</number>
+<ee>https://doi.org/10.1007/s10489-021-02846-w</ee>
+<url>db/journals/apin/apin52.html#GuptaGR22</url>
+</article>
+</r>
+<r><article key="journals/ecra/GuptaRPNG22" mdate="2026-08-03">
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author orcid="0000-0002-8087-0625" pid="318/8650">Aryan Rastogi</author>
+<author orcid="0000-0003-0709-0128" pid="318/8544">Vardhan Paliwal</author>
+<author pid="329/0311">Fyse Nassar</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<title>D-NEXUS: Defending text networks using summarization.</title>
+<pages>101171</pages>
+<year>2022</year>
+<volume>54</volume>
+<journal>Electron. Commer. Res. Appl.</journal>
+<ee>https://doi.org/10.1016/j.elerap.2022.101171</ee>
+<url>db/journals/ecra/ecra54.html#GuptaRPNG22</url>
+</article>
+</r>
+<r><article key="journals/kbs/MishraGG21" mdate="2026-08-03">
+<author pid="305/5134">Saumya Mishra</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author orcid="0000-0003-3586-9315" pid="06/1383-2">Puneet Gupta 0002</author>
+<title>DARE: Deceiving Audio-Visual speech Recognition model.</title>
+<pages>107503</pages>
+<year>2021</year>
+<volume>232</volume>
+<journal>Knowl. Based Syst.</journal>
+<ee>https://doi.org/10.1016/j.knosys.2021.107503</ee>
+<url>db/journals/kbs/kbs232.html#MishraGG21</url>
+</article>
+</r>
+<r><inproceedings key="conf/fgr/ShuklaGBSGBGSNB21" mdate="2026-08-03">
+<author orcid="0000-0002-6526-0087" pid="117/9926">Jainendra Shukla</author>
+<author pid="06/1383-2">Puneet Gupta 0002</author>
+<author pid="93/11476">Aniket Bera</author>
+<author pid="311/2508">Arka Sarkar</author>
+<author pid="264/7951">Prakhar Goel</author>
+<author pid="311/2161">Shubhangi Butta</author>
+<author orcid="0000-0003-1090-6036" pid="305/5359">Anup Kumar Gupta 0001</author>
+<author pid="311/2479">Snehil Sanyal</author>
+<author pid="92/10053">Debanga Raj Neog</author>
+<author pid="04/4787">Manas Kamal Bhuyan</author>
+<author pid="311/2651">Kalyani Marathe</author>
+<author pid="s/LindaGShapiro">Linda G. Shapiro</author>
+<author pid="311/2201">Alex Colbrn</author>
+<author pid="311/2585">Varchita Lalwani</author>
+<title>Contextual Emotion Learning Challenge.</title>
+<pages>1-7</pages>
+<year>2021</year>
+<booktitle>FG</booktitle>
+<ee>https://doi.org/10.1109/FG52635.2021.9667034</ee>
+<crossref>conf/fgr/2021</crossref>
+<url>db/conf/fgr/fg2021.html#ShuklaGBSGBGSNB21</url>
+</inproceedings>
+</r>
+<coauthors n="29" nc="1">
+<co c="0"><na f="a/Agarwal:Vaidehi" pid="414/2011">Vaidehi Agarwal</na></co>
+<co c="0"><na f="b/Bera:Aniket" pid="93/11476">Aniket Bera</na></co>
+<co c="0"><na f="b/Bhuyan:Manas_Kamal" pid="04/4787">Manas Kamal Bhuyan</na></co>
+<co c="0"><na f="b/Birla:Lokendra" pid="231/9257">Lokendra Birla</na></co>
+<co c="0"><na f="b/Butta:Shubhangi" pid="311/2161">Shubhangi Butta</na></co>
+<co c="0"><na f="c/Colbrn:Alex" pid="311/2201">Alex Colbrn</na></co>
+<co c="0"><na f="d/Dhall:Abhinav" pid="05/7591">Abhinav Dhall</na></co>
+<co c="0"><na f="d/Dhamaniya:Ashutosh" pid="396/8877">Ashutosh Dhamaniya</na></co>
+<co c="0"><na f="d/Dixit:Aditya" pid="190/7903">Aditya Dixit</na></co>
+<co c="0"><na f="g/Garg:Ankur" pid="192/1455">Ankur Garg</na></co>
+<co c="0"><na f="g/Goel:Prakhar" pid="264/7951">Prakhar Goel</na></co>
+<co c="0"><na f="g/Gupta_0002:Puneet" pid="06/1383-2">Puneet Gupta 0002</na></co>
+<co c="0"><na f="k/Kumar:Rupesh" pid="41/11351">Rupesh Kumar</na></co>
+<co c="0"><na f="l/Lalwani:Varchita" pid="311/2585">Varchita Lalwani</na></co>
+<co c="0"><na f="l/Liljeberg:Pasi" pid="22/660">Pasi Liljeberg</na></co>
+<co c="0"><na f="m/Marathe:Kalyani" pid="311/2651">Kalyani Marathe</na></co>
+<co c="0"><na f="m/Mishra:Saumya" pid="305/5134">Saumya Mishra</na></co>
+<co c="0"><na f="n/Nassar:Fyse" pid="329/0311">Fyse Nassar</na></co>
+<co c="0"><na f="n/Neog:Debanga_Raj" pid="92/10053">Debanga Raj Neog</na></co>
+<co c="0"><na f="p/Paliwal:Vardhan" pid="318/8544">Vardhan Paliwal</na></co>
+<co c="0"><na f="r/Rahtu:Esa" pid="34/3846">Esa Rahtu</na></co>
+<co c="0"><na f="r/Rastogi:Aryan" pid="318/8650">Aryan Rastogi</na></co>
+<co c="0"><na f="s/Saikia:Trishna" pid="322/6119">Trishna Saikia</na></co>
+<co c="0"><na f="s/Sanyal:Snehil" pid="311/2479">Snehil Sanyal</na></co>
+<co c="0"><na f="s/Sarkar:Arka" pid="311/2508">Arka Sarkar</na></co>
+<co c="0"><na f="s/Shapiro:Linda_G=" pid="s/LindaGShapiro">Linda G. Shapiro</na></co>
+<co c="0"><na f="s/Shukla:Jainendra" pid="117/9926">Jainendra Shukla</na></co>
+<co c="0"><na f="s/Shukla:Sneha" pid="270/3059">Sneha Shukla</na></co>
+<co c="0"><na f="s/Srivastava_0003:Saurabh" pid="181/2675-3">Saurabh Srivastava 0003</na></co>
+</coauthors>
+</dblpperson>
+
