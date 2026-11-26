@@ -1,0 +1,15 @@
+/* AUS Red & Blue: American University of Sharjah brand red and blue, with a hint of AUS sand */
+
+:root {
+  --main:   #9e3223;   /* links, buttons, highlights */
+  --accent: #386c94;   /* award badges, "New" label  */
+  --paper:  #fbf8f4;   /* background                 */
+  --ink:    #1f1b1a;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #ec9a88;
+  --accent: #8fbde0;
+  --paper:  #17130f;
+  --ink:    #eee7df;
+}

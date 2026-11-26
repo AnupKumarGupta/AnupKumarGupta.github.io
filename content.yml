@@ -1,0 +1,211 @@
+# =====================================================================
+#  WEBSITE CONTENT — this is the only file you normally need to edit.
+#  (Publications live in publications.bib.)
+#
+#  Formatting you can use inside any text:
+#    [link text](https://example.com)   →  a link
+#    **bold**   *italic*
+#  Indentation matters (2 spaces). Each list item starts with "- ".
+#  If a line contains a colon followed by a space, wrap it in quotes.
+# =====================================================================
+
+name: Anup Kumar Gupta
+prefix: Dr.
+tagline: Postdoctoral Fellow, American University of Sharjah
+location: Sharjah, UAE
+photo: images/profile.jpg
+cv: files/Anup_Kumar_Gupta_CV.pdf
+
+# Email is stored scrambled so bots and crawlers can't read it. It only
+# appears after a visitor clicks "Email me". To change it, see README.md.
+email_code: dWRlLnN1YUBhdHB1Z2E=
+
+# icon options: scholar, orcid, researchgate, github, linkedin, x, stackoverflow, dblp
+links:
+  - { label: Google Scholar, icon: scholar,       url: "https://scholar.google.com/citations?user=yNhpJTAAAAAJ&hl=en" }
+  - { label: GitHub, icon: github,         url: "https://github.com/AnupKumarGupta" }
+  - { label: LinkedIn, icon: linkedin,       url: "https://www.linkedin.com/in/anupkumargupta" }
+  - { label: ORCID, icon: orcid,          url: "https://orcid.org/0000-0003-1090-6036" }
+  - { label: ResearchGate, icon: researchgate,   url: "https://www.researchgate.net/profile/Anup-Kumar-Gupta" }
+  - { label: DBLP, icon: dblp,           url: "https://dblp.org/pid/305/5359.html" }
+  - { label: X / Twitter, icon: x,    url: "https://x.com/AnupKumarGupta_" }
+  - { label: Stack Overflow, icon: stackoverflow, url: "https://stackoverflow.com/users/6521550" }
+
+# Names to highlight in bold in author lists (as they appear in the .bib file)
+my_names:
+  - Anup Kumar Gupta
+
+bio: |
+  I am a Postdoctoral Fellow at the [American University of Sharjah](https://www.aus.edu/) (AUS), UAE, working with [Dr. Usman Tariq](https://www.aus.edu/node/58393), in collaboration with [Dr. Abhinav Dhall](https://sites.google.com/site/dhallabhinav), [Dr. Hasan Al-Nashash](https://www.aus.edu/node/58200) and [Dr. Jiyoung Park](https://bcs.kaist.ac.kr/sub020102/view/id/186).
+
+  I completed my Ph.D. in Computer Science and Engineering at the Indian Institute of Technology (IIT) Indore as a Prime Minister's Research Fellow (PMRF), under the supervision of [Dr. Puneet Gupta](https://www.iiti.ac.in/people/~puneet/). My thesis, *"Exploring Trustworthy Multimodal Learning for Mental and Physiological Health Assessment"*, spans remote photoplethysmography (rPPG), affective computing and pain assessment. I then served as a Translational Research Fellow at IIT Indore, where I led the development of *SEHAT*, a smartphone-enabled remote heart-rate assessment and tracking app. I also work on adversarial attacks and defences for deep learning models.
+
+  When I'm not deep into tech, I like to immerse myself in books, capture the night sky through astrophotography, or experiment in the kitchen. If you think we have something in common or wish to collaborate, please feel free to reach out!
+
+interests:
+  - Remote physiological sensing (rPPG)
+  - Trustworthy multimodal learning
+  - Affective computing & pain assessment
+  - Adversarial robustness
+
+# ---------------------------------------------------------------------
+# NEWS — newest first. Only the first 6 are shown; older ones fold away.
+# ---------------------------------------------------------------------
+news:
+  - date: New
+    text: Joined the [American University of Sharjah](https://www.aus.edu/) as a Postdoctoral Fellow.
+  - date: Oct 2026
+    text: Recognised as a **Top Reviewer** at NeurIPS 2026 (Datasets & Benchmarks Track).
+  - date: May 2026
+    text: Our paper on multimodal pain classification with Dr. Puneet Gupta and Dr. Abhinav Dhall received the **Best Student Paper Award** at IEEE FG 2026, Kyoto, Japan.
+  - date: May 2026
+    text: Awarded the IEEE FG 2026 Broadening Participation Travel Grant by the IEEE Biometrics Council.
+  - date: Mar 2026
+    text: Delivered a keynote on *Agentic AI* at the National Conference on Emerging Technologies (AI, ML & DS), VITM Indore.
+  - date: Sep 2025
+    text: Completed my Ph.D. at IIT Indore and started as a Translational Research Fellow.
+  - date: May 2025
+    text: Recognised as an **Outstanding Reviewer** at CVPR 2025 (top ~6% of reviewers).
+  - date: Feb 2025
+    text: Received the Best Technology Award at IIT Indore.
+  - date: Feb 2024
+    text: Received the Best Research Paper Award at IIT Indore.
+
+# ---------------------------------------------------------------------
+experience:
+  - role: Postdoctoral Fellow
+    org: American University of Sharjah, UAE
+    url: https://www.aus.edu/
+    dates: Present
+    details: "Working with [Dr. Usman Tariq](https://www.aus.edu/node/58393), in collaboration with [Dr. Abhinav Dhall](https://sites.google.com/site/dhallabhinav), [Dr. Hasan Al-Nashash](https://www.aus.edu/node/58200) and [Dr. Jiyoung Park](https://bcs.kaist.ac.kr/sub020102/view/id/186)."
+  - role: Translational Research Fellow
+    org: Indian Institute of Technology Indore
+    url: https://cse.iiti.ac.in/
+    dates: Sep 2025 – Sep 2026
+    details: Led the development of *SEHAT*, a smartphone-enabled remote heart rate assessment and tracking application.
+  - role: Guest Faculty & Course Coordinator
+    org: Shri G. S. Institute of Technology & Science (SGSITS), Indore
+    url: https://www.sgsits.ac.in/
+    dates: Oct 2021 – Aug 2025
+    details: Coordinated Artificial Intelligence, Soft Computing and Machine Learning courses under the PMRF scheme.
+  - role: Visiting Research Scholar
+    org: Purdue University, USA
+    url: https://www.cs.purdue.edu/homes/ab/
+    dates: Jun 2024 – Jul 2024
+    details: Short Term Research Fellowship to develop context-aware multimodal sentiment analysis models.
+  - role: Software Engineer (Workplace Bots)
+    org: Kwench Global Technologies Pvt. Ltd.
+    url: https://www.huminos.com/
+    dates: Oct 2017 – Apr 2018
+  - role: Software Engineer
+    org: Novoinvent Software Pvt. Ltd.
+    url: https://www.novoinvent.com/
+    dates: Jul 2017 – Sep 2017
+  - role: Student Coordinator
+    org: Software Incubator, Ajay Kumar Garg Engineering College
+    url: https://silive.in/
+    dates: Aug 2014 – May 2017
+    details: Lead developer of the Biometric Attendance System deployed at AKGEC, Ghaziabad.
+
+education:
+  - degree: Ph.D., Computer Science and Engineering
+    org: Indian Institute of Technology Indore
+    url: http://cse.iiti.ac.in/
+    dates: Aug 2021 – Sep 2025
+    details: "GPA 10/10 · Thesis: *Exploring Trustworthy Multimodal Learning for Mental and Physiological Health Assessment*"
+  - degree: M.S. (Research), Computer Science and Engineering
+    org: Indian Institute of Technology Indore
+    url: http://cse.iiti.ac.in/
+    dates: Aug 2019 – Jul 2021
+    details: GPA 10/10 · Rank 1
+  - degree: B.Tech, Computer Science and Engineering
+    org: Dr. A.P.J. Abdul Kalam Technical University
+    url: https://aktu.ac.in/
+    dates: Aug 2013 – Jul 2017
+    details: 78.42%
+
+# ---------------------------------------------------------------------
+teaching:
+  - heading: Guest Faculty & Course Coordinator — SGSITS Indore
+    items:
+      - "Soft Computing (IT-78512) — Jan–Jul '25, Aug–Dec '24, Mar–Jun '23, Mar–Jun '22"
+      - "Soft Computing Lab (IT-78853) — Aug–Dec '24, Mar–Jun '23"
+      - "Artificial Intelligence and Machine Learning (EC-65216) — Jan–Jun '24, Oct '21–Feb '22"
+      - "Artificial Intelligence (CT-20302 / IT-38005) — Jul–Nov '23, Aug–Dec '22"
+  - heading: Teaching Assistant — IIT Indore
+    items:
+      - "Machine Learning (CS 403/603) — Autumn '25, Autumn '24, Autumn '22"
+      - "Computer Vision (CS 419/619) — Spring '24"
+      - "Pattern Recognition (CS 412/612) — Autumn '23"
+      - "Computer Graphics and Visualization (CS 302) & Lab (CS 352) — Spring '25"
+      - "Data Structures and Algorithms (CS 203) & Lab (CS 253) — Autumn '21"
+      - "Software Engineering (CS 208) & Lab (CS 258) — Spring '23, Spring '22"
+
+mentoring:
+  intro: I assist / have assisted [Dr. Puneet Gupta](https://www.iiti.ac.in/people/~puneet/) in supervising the following students at IIT Indore.
+  groups:
+    - heading: Ph.D. Scholars
+      items:
+        - "[Jayant Patel](https://www.linkedin.com/in/jayantpatel71/) (2026 – present)"
+        - "[Deepa Maheshwari](https://www.linkedin.com/in/deepa-maheshwari-a8666627/) (2026 – present)"
+        - "[Vipendra Singh](https://www.linkedin.com/in/vipendra-singh/) (2025 – present)"
+        - "[Aravind Ramagiri](https://www.linkedin.com/in/aravind-ramagiri-290141177/) (2023 – present)"
+        - "[Rajesh Kumar](https://www.linkedin.com/in/rajesh-kumar-a78a84217/) (2023 – present)"
+        - "Priyanka Upadhyaya (2023 – present)"
+        - "[Aditya Dixit](https://scholar.google.com/citations?user=KcBQ6b8AAAAJ&hl=en) (2022 – present)"
+        - "[Trishna Saikia](https://scholar.google.com/citations?hl=en&user=G6G8ir0AAAAJ) (2022 – present)"
+    - heading: Postgraduate Scholars (M.S. (Research) / M.Sc.)
+      items:
+        - "[Rahul Kumar Rathore](https://www.linkedin.com/in/rahul-kumar-rathore/) (M.S. (Research), 2025 – present)"
+        - "[Utkarsh Singh Rathore](https://www.linkedin.com/in/utkarsh--singh--rathore/) (M.S. (Research), 2025 – present)"
+        - "[Debashish Utpal Biswas](https://www.linkedin.com/in/debashish-utpal-biswas-71b9a4389/) (M.S. (Research), 2024 – present)"
+        - "[Nishant Gupta](https://www.linkedin.com/in/nishant-gupta-55597021a/) (M.Sc., 2024 – 2026)"
+        - "[Vaidehi Agarwal](https://www.linkedin.com/in/vaidehi-agarwal/) (M.S. (Research), 2023 – 2025)"
+        - "[Vipendra Singh](https://www.linkedin.com/in/vipendra-singh/) (M.Sc., 2023 – 2025)"
+        - "[Ashutosh Dhamaniya](https://scholar.google.com/citations?user=r2T-BfIAAAAJ&hl=en) (M.S. (Research), 2022 – 2024)"
+        - "[Anirban Nath](https://www.linkedin.com/in/anirbannath1612/) (M.S. (Research), 2021 – 2023)"
+        - "[Rupesh Kumar](https://scholar.google.com/citations?user=_sgOSPsAAAAJ&hl=en) (M.S. (Research), 2020 – 2022)"
+    - heading: Undergraduate Scholars (B.Tech)
+      items:
+        - "**Batch of 2021–2025:** [Jilagam Dinesh Venkat Kumar](https://www.linkedin.com/in/dinesh-jilagam/), [Gorantla Anuksha](https://www.linkedin.com/in/anuksha-gorantla/), [Devani Laxmi Sri Sravya](https://www.linkedin.com/in/devani-sravya-029856233/), [Batchu Sonika](https://www.linkedin.com/in/sonika-batchu-11a7a3230/), [Harshavardhan Kilari](https://www.linkedin.com/in/harshavardhan-kilari-45a856233/), [Sreya Shanmukhi](https://www.linkedin.com/in/sreya-shanmukhi-904b3522a/), [Loke Sairaj Rajendra](https://www.linkedin.com/in/sairaj-loke-24370b237/)"
+        - "**Batch of 2020–2024:** [Pradeep Reddy Annem](https://www.linkedin.com/in/pradeep-reddy-iiti/), [Amit Kumar Makkad](https://www.linkedin.com/in/amit-kumar-makkad/), [Nischit Hosamani](https://www.linkedin.com/in/nischit29/), [Priyansh Jaseja](https://www.linkedin.com/in/priyansh-jaseja/), [Bhavya Contractor](https://www.linkedin.com/in/bhavya-contractor-b47784214/), [Aryan Rastogi](https://scholar.google.com/citations?hl=en&user=Lbs1LqQAAAAJ), [Vardhan Paliwal](https://scholar.google.com/citations?user=L-iODA8AAAAJ&hl=en)"
+    - heading: Summer Interns
+      items:
+        - "[Vishvaditya Luhach](https://www.linkedin.com/in/vishvaditya-luhach/) (Summer 2022)"
+
+# ---------------------------------------------------------------------
+talks:
+  - title: Agentic AI
+    kind: Keynote
+    event: National Conference on Emerging Technologies (AI, ML & DS)
+    place: Vikrant Institute of Technology & Management (VITM), Indore
+    date: Mar 2026
+    # slides: files/agentic-ai-slides.pdf     ← add a link like this if you have one
+
+honors:
+  - text: Best Student Paper Award, IEEE International Conference on Automatic Face and Gesture Recognition (FG 2026), Kyoto, Japan, for *Hierarchical Cross-Attention Transformer for Non-contact Multimodal Pain Classification*
+    date: May 2026
+  - text: IEEE FG 2026 Broadening Participation Travel Grant, IEEE Biometrics Council
+    date: May 2026
+  - text: Top Reviewer, NeurIPS 2026 (Datasets & Benchmarks Track)
+    date: Oct 2026
+  - text: Keynote Speaker, National Conference on Emerging Technologies (AI, ML & DS)
+    date: Mar 2026
+  - text: Outstanding Reviewer, CVPR (top ~6% of reviewers)
+    date: 2025, 2026
+  - text: Best Technology Award, IIT Indore
+    date: Feb 2025
+  - text: Best Research Paper Award, IIT Indore
+    date: Feb 2024
+  - text: "[Prime Minister's Research Fellowship (PMRF)](https://www.pmrf.in/)"
+    date: 2021 – 2025
+  - text: Rank 1 & perfect CGPA (10/10), M.S. (Research) in CSE, IIT Indore
+
+patents:
+  - text: "Puneet Gupta, Trishna Saikia, **Anup Kumar Gupta**. *System, apparatus, and method for heart rate determination of individuals wearing face mask.* Indian patent application, Ref. No. 202321071568."
+
+service:
+  - heading: Conference reviewer
+    text: NeurIPS, CVPR, ECCV, AAAI, BMVC, FG, ICASSP, ICECCME
+  - heading: Journal reviewer
+    text: "IEEE Transactions on Affective Computing, Human-Machine Systems, Multimedia, Circuits and Systems for Video Technology, Instrumentation and Measurement, and Consumer Electronics; IEEE Journal of Biomedical and Health Informatics; ACM Transactions on Computing for Healthcare; Information Fusion; Knowledge-Based Systems; Computer Vision and Image Understanding; Biomedical Signal Processing and Control; Engineering Applications of AI; Neural Computing & Applications; Applied Computing and Informatics; Journal of Imaging"

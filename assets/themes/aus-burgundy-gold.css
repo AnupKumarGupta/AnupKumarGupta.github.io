@@ -1,0 +1,15 @@
+/* AUS Burgundy & Gold: Burgundy (AUS colours: burgundy and white) with warm gold */
+
+:root {
+  --main:   #8a1c32;   /* links, buttons, highlights */
+  --accent: #b07d1e;   /* award badges, "New" label  */
+  --paper:  #fcfbf9;   /* background                 */
+  --ink:    #1f1b1c;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #e7899b;
+  --accent: #e2b65e;
+  --paper:  #171415;
+  --ink:    #ece6e4;
+}

@@ -1,33 +1,93 @@
-Coming Soon 
+# anupkumargupta.github.io
 
-<!-- A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+A plain HTML/CSS site (no Jekyll, no build step). GitHub Pages serves the files as they are.
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+## What to edit
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+| To change…                                   | Edit                         |
+|----------------------------------------------|------------------------------|
+| Bio, news, experience, teaching, talks, honors | `content.yml`              |
+| Publications                                 | `publications.bib`           |
+| CV                                           | replace `files/Anup_Kumar_Gupta_CV.pdf` |
+| Photo                                        | replace `images/profile.jpg` (square, ~400×400) |
 
-# Instructions
+You can edit everything in GitHub's web editor (press `.` on the repo page, or click the pencil icon on a file). Commit, and the site updates within a minute or two.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+### Add a news item
+Put it at the **top** of the `news:` list in `content.yml`:
+```yaml
+news:
+  - date: Dec 2026
+    text: Paper accepted at **CVPR 2027**! [Preprint](https://arxiv.org/abs/xxxx)
+```
 
-See more info at https://academicpages.github.io/
+### Add a publication
+Paste its BibTeX (from Google Scholar → Cite → BibTeX, or DBLP) into `publications.bib`. Entries are sorted by year automatically.
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+Optional extra fields the website understands (they are hidden from the "Copy BibTeX" button):
+```bibtex
+  pdf      = {files/papers/radiant.pdf},
+  code     = {https://github.com/AnupKumarGupta/RADIANT},
+  project  = {https://...},
+  slides   = {https://...},
+  video    = {https://...},
+  abstract = {We propose ...},
+  award    = {Best Student Paper Award},
+  selected = {true},         % show on the homepage (otherwise the 5 newest are shown)
+  pubtype  = {journal},      % override: journal | conference | preprint | patent | other
+```
+Type is detected automatically: `@article` = Journal, `@inproceedings` = Conference, `@misc` / arXiv = Preprint.
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+### Formatting in content.yml
+- `[text](https://link)` for links, `**bold**`, `*italic*`
+- Indent with 2 spaces. If a line contains `: ` (a colon followed by a space), wrap the text in quotes.
+- If the page shows "Could not load the site content", there is a YAML typo. Paste the file into <https://www.yamllint.com/> to find it.
 
-# Changelog -- bugfixes and enhancements
+### Change the email address
+The address is never written in plain text. It is stored reversed and base64-encoded as `email_code` in `content.yml`, and decoded only when a visitor clicks **Email me**. To make a new code, open any browser tab, press F12 → Console, and run:
+```js
+btoa("you@example.com".split("").reverse().join(""))
+```
+Paste the result as `email_code:`.
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+### Change the colours
+Open `assets/theme.css` and change the file name on this line:
+```css
+@import url("themes/oxford.css");
+```
+Available schemes (in `assets/themes/`): `oxford` (current), `classic-blue`, `teal-sand`, `forest-copper`, `graphite-indigo`, `plum-cyan`, `aus-red-blue`, `aus-burgundy-gold`.
+Each scheme file has four colours (`--main`, `--accent`, `--paper`, `--ink`) for light mode and four for dark mode. Every other shade is mixed automatically from these.
+To make your own scheme, copy one of the files, change the colours, and point the `@import` line at it.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch. -->
+### Change fonts or spacing
+The top of `assets/style.css` has the font and page-width settings. The rest of that file is grouped by page section (header, intro, news, publications, footer).
+
+## Preview locally (optional)
+```bash
+python3 -m http.server
+# open http://localhost:8000
+```
+(Opening `index.html` by double-clicking won't work, because browsers block loading the data files from disk.)
+
+## Files
+```
+content.yml            ← your text (bio, news, jobs, teaching, talks, honors)
+publications.bib       ← your papers
+assets/theme.css       ← pick the colour scheme (one line)
+assets/themes/*.css    the colour schemes, 4 colours each
+assets/style.css       layout and fonts
+assets/site.js         fills the pages from content.yml (settings at the top)
+assets/bibtex.js       reads publications.bib
+assets/icons.js        link icons (Font Awesome Free, CC BY 4.0; Simple Icons, CC0)
+assets/js-yaml.min.js  YAML reader (MIT licence, don't edit)
+index.html             homepage layout (the menu is here)
+publications.html      publications page layout
+files/, images/        CV, photo, favicons
+publications/, cv/, teaching/, talks/, about/, resume/   redirects from old URLs
+sitemap.xml, robots.txt  help search engines find the pages
+```
+
+### Add a new section to the homepage
+1. Add the data to `content.yml`.
+2. Add an empty `<section id="...">` in `index.html` and a menu link to it.
+3. Add a small render function in `assets/site.js` (copy `renderTalks` as a template) and call it in `start()`.

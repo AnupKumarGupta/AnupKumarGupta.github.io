@@ -1,0 +1,15 @@
+/* Classic Web Blue: Jon Barron template: blue links, orange highlight */
+
+:root {
+  --main:   #1668c2;   /* links, buttons, highlights */
+  --accent: #b85c00;   /* award badges, "New" label  */
+  --paper:  #ffffff;   /* background                 */
+  --ink:    #1a1a1a;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #6fb0f0;
+  --accent: #f0a050;
+  --paper:  #141619;
+  --ink:    #e8e8e8;
+}

@@ -1,0 +1,34 @@
+/* =====================================================================
+   THEME — choose the site's colour scheme here.
+
+   To switch, change the file name on the @import line below to one of:
+
+     oxford.css              Oxford Navy & Gold      (formal, timeless)  ← current
+     classic-blue.css        Classic Web Blue        (Jon Barron style)
+     teal-sand.css           Teal & Sand             (fresh, modern)
+     forest-copper.css       Forest & Copper         (calm, natural)
+     graphite-indigo.css     Graphite & Indigo       (minimal)
+     plum-cyan.css           Plum & Cyan             (al-folio style)
+     aus-red-blue.css        AUS Red & Blue          (AUS brand colours)
+     aus-burgundy-gold.css   AUS Burgundy & Gold
+
+   Each file in assets/themes/ holds just four colours for light mode and
+   four for dark mode. To tweak a scheme, edit its file; to make a new one,
+   copy a file, change the colours, and point the line below at it.
+   All schemes pass the WCAG AA contrast standard (4.5:1 or more).
+   ===================================================================== */
+
+@import url("themes/oxford.css");
+
+
+/* Derived shades, mixed automatically from the four colours.
+   No need to touch these. */
+:root {
+  --muted:     color-mix(in srgb, var(--ink) 62%, var(--paper));
+  --line:      color-mix(in srgb, var(--ink) 12%, var(--paper));
+  --surface:   color-mix(in srgb, var(--ink) 4%,  var(--paper));
+  --main-soft: color-mix(in srgb, var(--main) 10%, var(--paper));
+  --on-main:   var(--paper);
+  color-scheme: light;
+}
+:root[data-theme="dark"] { color-scheme: dark; }

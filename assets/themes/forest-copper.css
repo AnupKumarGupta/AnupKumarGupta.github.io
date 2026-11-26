@@ -1,0 +1,15 @@
+/* Forest & Copper: Calm green with warm copper */
+
+:root {
+  --main:   #2e6b4f;   /* links, buttons, highlights */
+  --accent: #a0522d;   /* award badges, "New" label  */
+  --paper:  #f8f6f0;   /* background                 */
+  --ink:    #1c2420;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #7cc4a2;
+  --accent: #e39a6e;
+  --paper:  #121915;
+  --ink:    #e4e8e3;
+}

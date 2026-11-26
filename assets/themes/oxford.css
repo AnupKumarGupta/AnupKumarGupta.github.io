@@ -1,0 +1,15 @@
+/* Oxford Navy & Gold: Oxford blue #002147 family with muted gold */
+
+:root {
+  --main:   #1b4a7a;   /* links, buttons, highlights */
+  --accent: #8c6a1c;   /* award badges, "New" label  */
+  --paper:  #f8f6f2;   /* background                 */
+  --ink:    #0f1f33;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #8fb4e3;
+  --accent: #d9b56a;
+  --paper:  #0f1726;
+  --ink:    #e6e9ee;
+}

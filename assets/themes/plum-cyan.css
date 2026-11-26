@@ -1,0 +1,15 @@
+/* Plum & Cyan: al-folio's purple/cyan, toned down */
+
+:root {
+  --main:   #8e2a87;   /* links, buttons, highlights */
+  --accent: #1d7a96;   /* award badges, "New" label  */
+  --paper:  #ffffff;   /* background                 */
+  --ink:    #1d1d1f;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #4fb3d4;
+  --accent: #d98ad3;
+  --paper:  #1c1c1d;
+  --ink:    #e6e6e6;
+}
