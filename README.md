@@ -51,15 +51,13 @@ btoa("you@example.com".split("").reverse().join(""))
 Paste the result as `email_code:`.
 
 ### Change the colours
-Open `assets/theme.css` and change the four values at the top:
+Open `assets/theme.css` and change the file name on this line:
 ```css
---main:   #9e3223;   /* links, buttons, highlights */
---accent: #386c94;   /* award badges, small details */
---paper:  #fbf8f4;   /* background */
---ink:    #1f1b1a;   /* text */
+@import url("themes/oxford.css");
 ```
-There is a second block for dark mode just below it. Every other shade is mixed automatically from these.
-Ready-made alternatives (blue, teal, clay) are listed in the same file.
+Available schemes (in `assets/themes/`): `oxford` (current), `classic-blue`, `teal-sand`, `forest-copper`, `graphite-indigo`, `plum-cyan`, `aus-red-blue`, `aus-burgundy-gold`.
+Each scheme file has four colours (`--main`, `--accent`, `--paper`, `--ink`) for light mode and four for dark mode. Every other shade is mixed automatically from these.
+To make your own scheme, copy one of the files, change the colours, and point the `@import` line at it.
 
 ### Change fonts or spacing
 The top of `assets/style.css` has the font and page-width settings. The rest of that file is grouped by page section (header, intro, news, publications, footer).
@@ -75,7 +73,8 @@ python3 -m http.server
 ```
 content.yml            ← your text (bio, news, jobs, teaching, talks, honors)
 publications.bib       ← your papers
-assets/theme.css       ← colours
+assets/theme.css       ← pick the colour scheme (one line)
+assets/themes/*.css    the colour schemes, 4 colours each
 assets/style.css       layout and fonts
 assets/site.js         fills the pages from content.yml (settings at the top)
 assets/bibtex.js       reads publications.bib

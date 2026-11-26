@@ -1,0 +1,15 @@
+/* Graphite & Indigo: Near-monochrome, one quiet indigo */
+
+:root {
+  --main:   #3b4ba8;   /* links, buttons, highlights */
+  --accent: #6b7280;   /* award badges, "New" label  */
+  --paper:  #fcfcfd;   /* background                 */
+  --ink:    #16181d;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #9aa8f0;
+  --accent: #a3aab5;
+  --paper:  #131418;
+  --ink:    #e7e8ec;
+}

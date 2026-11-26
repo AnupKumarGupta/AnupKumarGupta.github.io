@@ -1,0 +1,15 @@
+/* Teal & Sand: Distill-like teal on warm paper */
+
+:root {
+  --main:   #0d6b66;   /* links, buttons, highlights */
+  --accent: #9a5b12;   /* award badges, "New" label  */
+  --paper:  #f7f4ee;   /* background                 */
+  --ink:    #1b2624;   /* text                       */
+}
+
+:root[data-theme="dark"] {
+  --main:   #5ec4b8;
+  --accent: #e3b064;
+  --paper:  #121816;
+  --ink:    #e7e4dc;
+}
