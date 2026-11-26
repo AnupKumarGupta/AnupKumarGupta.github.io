@@ -20,7 +20,7 @@ cv: files/Anup_Kumar_Gupta_CV.pdf
 # appears after a visitor clicks "Email me". To change it, see README.md.
 email_code: dWRlLnN1YUBhdHB1Z2E=
 
-# icon options: scholar, orcid, researchgate, github, linkedin, x, stackoverflow, dblp
+# icon options: scholar, orcid, researchgate, github, linkedin, dblp, x, stackoverflow
 links:
   - { label: Google Scholar, icon: scholar,       url: "https://scholar.google.com/citations?user=yNhpJTAAAAAJ&hl=en" }
   - { label: GitHub, icon: github,         url: "https://github.com/AnupKumarGupta" }
@@ -28,8 +28,6 @@ links:
   - { label: ORCID, icon: orcid,          url: "https://orcid.org/0000-0003-1090-6036" }
   - { label: ResearchGate, icon: researchgate,   url: "https://www.researchgate.net/profile/Anup-Kumar-Gupta" }
   - { label: DBLP, icon: dblp,           url: "https://dblp.org/pid/305/5359.html" }
-  - { label: X / Twitter, icon: x,    url: "https://x.com/AnupKumarGupta_" }
-  - { label: Stack Overflow, icon: stackoverflow, url: "https://stackoverflow.com/users/6521550" }
 
 # Names to highlight in bold in author lists (as they appear in the .bib file)
 my_names:
@@ -93,19 +91,6 @@ experience:
     url: https://www.cs.purdue.edu/homes/ab/
     dates: Jun 2024 – Jul 2024
     details: Short Term Research Fellowship to develop context-aware multimodal sentiment analysis models.
-  - role: Software Engineer (Workplace Bots)
-    org: Kwench Global Technologies Pvt. Ltd.
-    url: https://www.huminos.com/
-    dates: Oct 2017 – Apr 2018
-  - role: Software Engineer
-    org: Novoinvent Software Pvt. Ltd.
-    url: https://www.novoinvent.com/
-    dates: Jul 2017 – Sep 2017
-  - role: Student Coordinator
-    org: Software Incubator, Ajay Kumar Garg Engineering College
-    url: https://silive.in/
-    dates: Aug 2014 – May 2017
-    details: Lead developer of the Biometric Attendance System deployed at AKGEC, Ghaziabad.
 
 education:
   - degree: Ph.D., Computer Science and Engineering
