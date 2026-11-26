@@ -11,7 +11,7 @@
 
 name: Anup Kumar Gupta
 prefix: Dr.
-tagline: Postdoctoral Fellow, American University of Sharjah
+tagline: Postdoctoral Researcher, American University of Sharjah
 location: Sharjah, UAE
 photo: images/profile.jpg
 cv: files/Anup_Kumar_Gupta_CV.pdf
@@ -34,7 +34,7 @@ my_names:
   - Anup Kumar Gupta
 
 bio: |
-  I am a Postdoctoral Fellow at the [American University of Sharjah](https://www.aus.edu/) (AUS), UAE, working with [Dr. Usman Tariq](https://www.aus.edu/node/58393), in collaboration with [Dr. Abhinav Dhall](https://sites.google.com/site/dhallabhinav), [Dr. Hasan Al-Nashash](https://www.aus.edu/node/58200) and [Dr. Jiyoung Park](https://bcs.kaist.ac.kr/sub020102/view/id/186).
+  I am a Postdoctoral Researcher at the [American University of Sharjah](https://www.aus.edu/) (AUS), UAE, working with [Dr. Usman Tariq](https://www.aus.edu/node/58393), in collaboration with [Dr. Abhinav Dhall](https://sites.google.com/site/dhallabhinav), [Dr. Hasan Al-Nashash](https://www.aus.edu/node/58200) and [Dr. Jiyoung Park](https://bcs.kaist.ac.kr/sub020102/view/id/186).
 
   I completed my Ph.D. in Computer Science and Engineering at the Indian Institute of Technology (IIT) Indore as a Prime Minister's Research Fellow (PMRF), under the supervision of [Dr. Puneet Gupta](https://www.iiti.ac.in/people/~puneet/). My thesis, *"Exploring Trustworthy Multimodal Learning for Mental and Physiological Health Assessment"*, spans remote photoplethysmography (rPPG), affective computing and pain assessment. I then served as a Translational Research Fellow at IIT Indore, where I led the development of *SEHAT*, a smartphone-enabled remote heart-rate assessment and tracking app. I also work on adversarial attacks and defences for deep learning models.
 
@@ -51,7 +51,7 @@ interests:
 # ---------------------------------------------------------------------
 news:
   - date: New
-    text: Joined the [American University of Sharjah](https://www.aus.edu/) as a Postdoctoral Fellow.
+    text: Joined the [American University of Sharjah](https://www.aus.edu/) as a Postdoctoral Researcher.
   - date: Oct 2026
     text: Recognised as a **Top Reviewer** at NeurIPS 2026 (Datasets & Benchmarks Track).
   - date: May 2026
@@ -71,8 +71,8 @@ news:
 
 # ---------------------------------------------------------------------
 experience:
-  - role: Postdoctoral Fellow
-    org: American University of Sharjah, UAE
+  - role: Postdoctoral Researcher
+    org: College of Engineering, American University of Sharjah, UAE
     url: https://www.aus.edu/
     dates: Present
     details: "Working with [Dr. Usman Tariq](https://www.aus.edu/node/58393), in collaboration with [Dr. Abhinav Dhall](https://sites.google.com/site/dhallabhinav), [Dr. Hasan Al-Nashash](https://www.aus.edu/node/58200) and [Dr. Jiyoung Park](https://bcs.kaist.ac.kr/sub020102/view/id/186)."
