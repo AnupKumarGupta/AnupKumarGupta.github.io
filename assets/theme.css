@@ -1,0 +1,65 @@
+/* =====================================================================
+   THEME — change the site's colours here. Nothing else needs editing.
+
+   --main    Brand colour: links, buttons, highlights, active menu item.
+   --accent  Second colour: award badges, the "news" dot, small details.
+   --paper   Page background.
+   --ink     Main text colour.
+
+   Every other shade (borders, soft backgrounds, muted text) is mixed
+   automatically from these four, so the whole site stays consistent.
+
+   Current scheme: American University of Sharjah. Main and accent are
+   AUS's red and blue; the background has a faint hint of AUS sand.
+   All text colours pass the WCAG AA contrast standard (4.5:1 or more).
+   ===================================================================== */
+
+:root {
+  --main:   #9e3223;   /* AUS red      (contrast 6.8:1) */
+  --accent: #386c94;   /* AUS blue     (contrast 5.3:1) */
+  --paper:  #fbf8f4;   /* warm white, hint of AUS sand #e5bc96 */
+  --ink:    #1f1b1a;   /* near-black   */
+}
+
+/* Dark mode: lighter versions of the same colours so they stay readable
+   on a dark background. */
+:root[data-theme="dark"] {
+  --main:   #ec9a88;
+  --accent: #8fbde0;
+  --paper:  #17130f;
+  --ink:    #eee7df;
+}
+
+
+/* ---------------------------------------------------------------------
+   Ready-made alternatives. To use one, copy its two blocks over the
+   blocks above.
+
+   AUS burgundy & gold (previous version)
+     light:  --main: #8a1c32; --accent: #b07d1e; --paper: #fcfbf9; --ink: #1f1b1c;
+     dark:   --main: #e7899b; --accent: #e2b65e; --paper: #171415; --ink: #ece6e4;
+
+   Classic blue
+     light:  --main: #1d4e89; --accent: #8a5a00; --paper: #fdfcfa; --ink: #1f2328;
+     dark:   --main: #8cb8ec; --accent: #e0b25c; --paper: #15171a; --ink: #e6e3de;
+
+   Sandstone & teal
+     light:  --main: #0d6b66; --accent: #9a5b12; --paper: #f7f4ee; --ink: #1b2624;
+     dark:   --main: #5ec4b8; --accent: #e3b064; --paper: #121816; --ink: #e7e4dc;
+
+   Ink & clay
+     light:  --main: #a9491a; --accent: #14273b; --paper: #f6f1ea; --ink: #14273b;
+     dark:   --main: #e88a52; --accent: #9fb6d0; --paper: #11161d; --ink: #e8e2d8;
+   --------------------------------------------------------------------- */
+
+
+/* Derived shades — no need to touch these. */
+:root {
+  --muted:      color-mix(in srgb, var(--ink) 62%, var(--paper));
+  --line:       color-mix(in srgb, var(--ink) 12%, var(--paper));
+  --surface:    color-mix(in srgb, var(--ink) 4%,  var(--paper));
+  --main-soft:  color-mix(in srgb, var(--main) 10%, var(--paper));
+  --on-main:    var(--paper);
+  color-scheme: light;
+}
+:root[data-theme="dark"] { color-scheme: dark; }
